@@ -4,6 +4,7 @@ def create_p(input1, input2)
   file.puts "<p>#{input1}</p>"
   file.puts "<p>#{input2}</p>"
   file.close
+  nil
 end
 create_p("hola","hola2")
 
@@ -16,6 +17,7 @@ def create_list(str1, str2)
   end
   file.puts "</ul>"
   file.close
+  nil
 end
 create_list("hola","hola2")
 
@@ -24,5 +26,6 @@ def p_bgcolor(str1 ,str2 ,color)
   file.puts "<p style='background:##{color};'>#{str1}</p>"
   file.puts "<p style='background:##{color};'>#{str2}</p>"
   file.close
+  nil
 end
 p_bgcolor("hola1","hola2","red")
